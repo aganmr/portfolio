@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import profile from './assets/about_pic.svg'
 import toon1 from './assets/toon1.svg'
 import check_outline from './assets/check-circle-outline.svg'
 import circle_outline from './assets/record-circle-outline.svg'

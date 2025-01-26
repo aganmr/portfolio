@@ -1,13 +1,11 @@
 import "./App.css"
-import Toolbar from "./Toolbar.tsx"
+// import Toolbar from "./Toolbar.tsx"
 import Landing from "./Landing.tsx"
 import About from "./About.tsx"
-import Education from "./Education.tsx"
+// import Education from "./Education.tsx"
 import Skills from "./Skills.tsx"
 import Experience from "./Experience.tsx"
 import Footer from "./Footer.tsx"
-import mouse from './assets/mouse-outline.svg'
-import mouse_down from './assets/mouse-move-down.svg'
 
 function App() {
 

@@ -1,4 +1,3 @@
-import night from './assets/night.svg'
 import './Toolbar.css'
 
 function Toolbar(){
