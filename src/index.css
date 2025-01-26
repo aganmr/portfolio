@@ -1,0 +1,327 @@
+:root {
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  font-family: 'Segoe UI', system-ui;
+  /* line-height: 1.5;
+  font-weight: 400; */
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #1b1c2e;
+
+  animation: fadeInAnimation ease 1.5s;
+  animation-iteration-count: 1;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color:transparent;
+}
+
+progress { 
+  accent-color: #46C976;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+    scale: 1.05;
+  }
+
+  100% {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+button {
+  font-size: medium;
+  margin-right: 2rem;
+}
+
+p {
+  font-size: large;
+  /* margin-right: 2rem; */
+  /* font-weight: bold; */
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: hsl(0, 0%, 75%);
+}
+
+.little_text {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  font-size: small;
+}
+
+.secondary_text {
+  font-weight: 200;
+  padding-bottom: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.bold_text {
+  font-size: large;
+  margin-right: 2rem;
+  font-weight: bold;
+  color: hsl(0, 0%, 95%);
+}
+
+.main_pic {
+  transition: all 0.2s ease-in-out;
+
+  animation: popAnimation ease 1.5s;
+  animation-iteration-count: 1;
+}
+
+.main_pic:hover {
+  scale: 0.9;
+}
+
+@keyframes popAnimation {
+  0% {
+    scale: 1.2;
+    transform: rotate(10deg);
+  }
+
+  100% {
+    scale: 1;
+  }
+}
+
+.button_text {
+  font-size: large;
+  margin-right: 0.5rem;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 2rem;
+  font-weight: bold;
+  color: hsl(0, 0%, 95%);
+  transition: all 0.15s ease-in-out;
+}
+
+.button_text:hover {
+  cursor: pointer;
+  background-color: #fba547;
+  color: #1b1c2e;
+  scale: 1.2;
+}
+
+.button_div {
+  width: 308px;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #23253D;
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.24),
+    0 8.5px 25px 0 rgba(0, 0, 0, 0.19);
+  transition: all 0.15s ease-in-out;
+}
+
+/* .button_div:hover {
+  cursor: pointer;
+  scale: 1.015;
+} */
+
+.button_div2:hover {
+  cursor: pointer;
+  /* scale: 1.015; */
+}
+
+.icon_button {
+  transition: all 0.2s ease-in-out;
+}
+
+.icon_button:hover {
+  cursor: pointer;
+  scale: 1.5;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.icon_button_delay_anim1 {
+  animation: popIconAnimation ease-in-out 0.8s;
+  animation-delay: 4s;
+}
+
+.icon_button_delay_anim2 {
+  animation: popIconAnimation ease-in-out 0.8s;
+  animation-delay: 4.5s;
+}
+
+.icon_button_delay_anim3 {
+  animation: popIconAnimation ease-in-out 0.8s;
+  animation-delay: 5s;
+}
+
+@keyframes popIconAnimation {
+  0% {
+    scale: 1;
+  }
+
+  50% {
+    scale: 1.5;
+  }
+
+  100% {
+    scale: 1;
+  }
+}
+
+.typewriter_h1 {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  opacity: 0;
+  text-align: start;
+
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.1em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+
+  animation: typing 3.5s steps(18, end), blink-caret 0.75s step-end infinite;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+    opacity: 1;
+  }
+  to {
+    width: 57%;
+    opacity: 1;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+.blob {
+  /* font-size: large; */
+  padding: 0.4rem;
+  /* font-weight: bold; */
+  /* color: hsl(0, 0%, 95%); */
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  border-radius: 2rem;
+  /* transition: all 0.2s ease-in-out; */
+
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+  animation: pulse 8s infinite;
+  animation-delay: 4s;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.4);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
+  }
+
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+}
+
+.shake {
+  cursor: default;
+}
+
+.shake:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 110%;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

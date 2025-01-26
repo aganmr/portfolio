@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41.589" height="218.633" viewBox="0 0 41.589 218.633">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1.42" y1="0.562" x2="0.584" y2="0.588" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffcc01"/>
+      <stop offset="1" stop-color="#f97f2c"/>
+    </linearGradient>
+    <filter id="Rectangle_186" x="0" y="0" width="41.589" height="51.589" filterUnits="userSpaceOnUse">
+      <feOffset dx="-8" dy="18" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_187" x="0" y="167.044" width="41.589" height="51.589" filterUnits="userSpaceOnUse">
+      <feOffset dx="-8" dy="18" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur-2"/>
+      <feFlood flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_71" data-name="Group 71" transform="translate(-817.6 -1296.456)">
+    <g transform="matrix(1, 0, 0, 1, 817.6, 1296.46)" filter="url(#Rectangle_186)">
+      <rect id="Rectangle_186-2" data-name="Rectangle 186" width="18.711" height="18.184" rx="9.092" transform="translate(15.5 13.23) rotate(-45)" fill="url(#linear-gradient)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 817.6, 1296.46)" filter="url(#Rectangle_187)">
+      <rect id="Rectangle_187-2" data-name="Rectangle 187" width="18.711" height="18.184" rx="9.092" transform="translate(15.5 180.28) rotate(-45)" fill="url(#linear-gradient)"/>
+    </g>
+    <line id="Line_1" data-name="Line 1" y2="161" transform="translate(846.5 1315.545)" fill="none" stroke="#f97f2c" stroke-width="2"/>
+  </g>
+</svg>

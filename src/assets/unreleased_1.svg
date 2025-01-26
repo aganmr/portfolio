@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="333" height="88" viewBox="0 0 333 88">
+  <g id="Group_7" data-name="Group 7" transform="translate(-1426 -848)">
+    <g id="Group_5" data-name="Group 5" transform="translate(0 115)">
+      <g id="Group_3" data-name="Group 3" transform="translate(332 -117)">
+        <rect id="Rectangle_1" data-name="Rectangle 1" width="333" height="88" rx="44" transform="translate(1094 850)" fill="#c1c1c1"/>
+      </g>
+      <text id="PROTOTYPE_ONLY_Unreleased" data-name="PROTOTYPE ONLYUnreleased" transform="translate(1539 748)" fill="#020202" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="22">PROTOTYPE ONLY</tspan><tspan font-size="30" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="50">Unreleased</tspan></tspan></text>
+    </g>
+    <path id="cancel" d="M29.628,2A27.628,27.628,0,1,1,2,29.628,27.709,27.709,0,0,1,29.628,2m0,5.526a20.668,20.668,0,0,0-13.538,4.7L47.034,43.166a23.582,23.582,0,0,0,4.7-13.538,22.167,22.167,0,0,0-22.1-22.1M43.166,47.034,12.222,16.09a20.668,20.668,0,0,0-4.7,13.538,22.167,22.167,0,0,0,22.1,22.1A20.668,20.668,0,0,0,43.166,47.034Z" transform="translate(1463 862.372)"/>
+  </g>
+</svg>

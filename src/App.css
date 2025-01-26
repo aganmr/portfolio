@@ -1,0 +1,10 @@
+#root {
+  max-width: 1130px;
+  /* min-width: 820px; */
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+  /* color-scheme: light dark; */
+  color: rgba(255, 255, 255, 0.87);
+  /* background-color: #ffff; */
+}

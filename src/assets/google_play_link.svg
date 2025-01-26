@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="333" height="88" viewBox="0 0 333 88">
+  <g id="Group_8" data-name="Group 8" transform="translate(-1426 -848)">
+    <g id="Group_5" data-name="Group 5" transform="translate(0 115)">
+      <g id="Group_3" data-name="Group 3" transform="translate(332 -117)">
+        <rect id="Rectangle_1" data-name="Rectangle 1" width="333" height="88" rx="44" transform="translate(1094 850)" fill="#fff"/>
+      </g>
+      <text id="VIEW_IT_ON_Google_Play" data-name="VIEW IT ONGoogle Play" transform="translate(1539 748)" fill="#020202" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="22">VIEW IT ON</tspan><tspan font-size="30" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="50">Google Play</tspan></tspan></text>
+    </g>
+    <path id="google-play_1_" data-name="google-play (1)" d="M3,51.97V5.815A4.064,4.064,0,0,1,5.281,2.15L32.023,28.893,5.281,55.636A4.094,4.094,0,0,1,3,51.97M40.494,37.364,11.281,54.251,34.331,31.2l6.163,6.163m9.1-11.7a4.129,4.129,0,0,1,1.6,3.231,3.99,3.99,0,0,1-1.548,3.2L43.426,35.68l-6.788-6.788,6.788-6.788,6.163,3.557M11.281,3.535,40.494,20.422l-6.163,6.163Z" transform="translate(1470 863.107)"/>
+  </g>
+</svg>

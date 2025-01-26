@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="333" height="88" viewBox="0 0 333 88">
+  <g id="Group_62" data-name="Group 62" transform="translate(-995 -663)">
+    <g id="Group_3" data-name="Group 3" transform="translate(-99 -187)">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="333" height="88" rx="44" transform="translate(1094 850)" fill="#fff"/>
+    </g>
+    <text id="VIEW_IT_ON_THE_GitHub_Repo" data-name="VIEW IT ON THEGitHub Repo" transform="translate(1102 678)" fill="#020202" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="22">VIEW IT ON THE</tspan><tspan font-size="30" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="50">GitHub Repo</tspan></tspan></text>
+    <path id="github_1_" data-name="github (1)" d="M29.407,2a27.426,27.426,0,0,0-8.661,53.443c1.37.219,1.809-.63,1.809-1.37V49.441c-7.592,1.644-9.209-3.672-9.209-3.672C12.086,42.589,10.3,41.74,10.3,41.74c-2.494-1.7.192-1.644.192-1.644a5.763,5.763,0,0,1,4.193,2.823c2.384,4.166,6.413,2.933,7.975,2.275a5.919,5.919,0,0,1,1.727-3.673c-6.084-.685-12.47-3.042-12.47-13.484a10.614,10.614,0,0,1,2.823-7.427,9.8,9.8,0,0,1,.274-7.235s2.3-.74,7.537,2.8a26.406,26.406,0,0,1,13.7,0c5.235-3.535,7.537-2.8,7.537-2.8a9.8,9.8,0,0,1,.274,7.235,10.614,10.614,0,0,1,2.823,7.427c0,10.469-6.413,12.772-12.525,13.457a6.539,6.539,0,0,1,1.891,5.07v7.509c0,.74.439,1.617,1.836,1.37A27.432,27.432,0,0,0,29.407,2Z" transform="translate(1030.828 680)"/>
+  </g>
+</svg>
