@@ -15,6 +15,7 @@ import github_repo_link from './assets/github_link.svg'
 import youtube_link from './assets/youtube_link.svg'
 import chevron from './assets/chevron-down.svg'
 import check_outline from './assets/check-circle-outline.svg'
+import screenshot from './assets/screenshot.png'
 
 function Experience(){
     const [collapsableOpened, setCollapsableOpened] = useState(4);
@@ -42,8 +43,8 @@ function Experience(){
                             <p style={{marginLeft: '0.5rem'}}>2018 - 2020</p>
                         </div>
                     </div>
-                    <img src={line} style={{marginLeft: "2rem"}}></img>
-                    <div style={{marginLeft: "3rem", marginTop: '12rem'}}>
+                    <img src={line} style={{marginLeft: "2rem", alignSelf: 'flex-start'}}></img>
+                    <div style={{marginLeft: "3rem", marginTop: '10rem'}}>
                         <p style={{marginTop: 0, marginBottom: 0}} className='bold_text'>
                             Kyocera Document Solutions Development PH
                         </p>
@@ -357,7 +358,7 @@ function Experience(){
                         <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center'}} className='button_div2' onClick={()=>setCollapsableOpened(collapsableOpened != 5 ? 5 : 0)}>
                             <div style={{width: '100%'}}>
                                 <p className='bold_text'>Applications Developed</p>
-                                <p>Linux Applications</p>
+                                <p>Python apps for Linux/Windows</p>
                             </div>                            
                             <img src={chevron} style={{transform: collapsableOpened == 5 ? 'rotate(180deg)' : 'rotate(0deg)'}}></img>
                         </div>
@@ -403,6 +404,36 @@ function Experience(){
                                     <div style={{display: 'flex', flexDirection: 'row', alignItems: 'flex-start'}}>
                                         <img src={check_outline} width={'15px'} style={{marginRight: '0.5rem', marginTop: '5px'}}></img>
                                         <p><small>Created an installation tutorial on YouTube</small></p>
+                                    </div>
+                                </div>
+                                <div style={{marginTop: '3rem'}}>
+                                    <img src={screenshot} width={'300px'}></img>
+                                    <div style={{display: 'flex', flexDirection: 'row', justifySelf: 'center', marginTop: '1rem', marginBottom: '1rem'}}>
+                                        <a href="https://github.com/markurei/ez-downloader" target="_blank">
+                                            <img src={github_repo_link} width={'120px'} ></img>
+                                        </a>
+                                    </div>
+                                    <p><small><b>EZ Downloader</b></small></p>
+                                    <p><small>Developed on spare time</small></p>
+                                    <div style={{display: 'flex', flexDirection: 'row', alignItems: 'flex-start', marginTop: '1rem'}}>
+                                        <img src={check_outline} width={'15px'} style={{marginRight: '0.5rem', marginTop: '5px'}}></img>
+                                        <p><small>Easily downloads games from specific sites</small></p>
+                                    </div> 
+                                    <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
+                                        <img src={check_outline} width={'15px'} style={{marginRight: '0.5rem'}}></img>                                        
+                                        <p><small>Created using Python and Tkinter</small></p>
+                                    </div>
+                                    <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
+                                        <img src={check_outline} width={'15px'} style={{marginRight: '0.5rem'}}></img>
+                                        <p><small>Has an executable for Windows</small></p>
+                                    </div>
+                                    <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
+                                        <img src={check_outline} width={'15px'} style={{marginRight: '0.5rem'}}></img>
+                                        <p><small>Scrapes the URLs and gets the direct links</small></p>
+                                    </div>
+                                    <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
+                                        <img src={check_outline} width={'15px'} style={{marginRight: '0.5rem'}}></img>
+                                        <p><small>Supports multi-threading</small></p>
                                     </div>
                                 </div>
                             </div>
