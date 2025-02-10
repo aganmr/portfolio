@@ -407,7 +407,7 @@ function Experience(){
                                     </div>
                                 </div>
                                 <div style={{marginTop: '3rem'}}>
-                                    <img src={screenshot} width={'300px'}></img>
+                                    <img src={screenshot} width={'290px'}></img>
                                     <div style={{display: 'flex', flexDirection: 'row', justifySelf: 'center', marginTop: '1rem', marginBottom: '1rem'}}>
                                         <a href="https://github.com/markurei/ez-downloader" target="_blank">
                                             <img src={github_repo_link} width={'120px'} ></img>
